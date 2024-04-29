@@ -1,0 +1,19 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header #return{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-height: 100vh;
+    max-width: 100vh;
+}
+
