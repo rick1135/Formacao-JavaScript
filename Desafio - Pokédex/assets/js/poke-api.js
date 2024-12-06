@@ -15,7 +15,16 @@ function convetPokeApiDetailToPokemon(pokeDetail) {
 pokeApi.getPokemonDetail = (pokemon) => {
     return fetch(pokemon.url)
      .then((response) => response.json())
-     .then(convetPokeApiDetailToPokemon)
+     .then(pokeDetail => {
+        const pokemonDetail = convetPokeApiDetailToPokemon(pokeDetail);
+        pokemonDetail.height = pokeDetail.height;
+        pokemonDetail.weight = pokeDetail.weight;
+        pokemonDetail.hp = pokeDetail.stats[0].base_stat;
+        pokemonDetail.attack = pokeDetail.stats[1].base_stat;
+        pokemonDetail.defense = pokeDetail.stats[2].base_stat;
+        pokemonDetail.abilities = pokeDetail.abilities.map((abilitySlot) => abilitySlot.ability.name);
+        return pokemonDetail;
+    });
 }
 
 pokeApi.getPokemons = (offset = 0, limit = 5) => {
