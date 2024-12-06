@@ -2,6 +2,20 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.header::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/3points.svg');
 }
 
 .photo{
@@ -57,3 +71,26 @@
     background-image: url('../img/icons/email.svg');
 }
 
+@media only screen and (min-width: 768px){
+    .header{
+        display: grid;
+        grid-template-areas: 
+            "photo title"
+            "photo info";
+    }
+
+    .photo{
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .title{
+        grid-area: title;
+        text-align: left;
+        max-width: 240px;
+    }
+
+    .info{
+        grid-area: info;
+    }
+}

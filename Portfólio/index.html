@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio - Alberto Henrique</title>
+    <title>Portifólio - Alberto Henrique</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -19,6 +19,11 @@
     />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/acordeon.css" />
+    <link rel="stylesheet" href="assets/css/languages.css" />
+    <link rel="stylesheet" href="assets/css/projects.css" />
+    <link rel="stylesheet" href="assets/css/experience.css" />
+    <link rel="stylesheet" href="assets/css/skills.css" />
   </head>
   <body>
     <div class="main">
@@ -28,10 +33,92 @@
         <div class="info">
           <p id="job">Dev Júnior</p>
           <p id="loc">Montes Claros - MG</p>
-          <p id="wpp">(38)99109-2834</p>
-          <p id="email">rick1135@hotmail.com</p>
+          <p id="wpp"><a href="tel:+5538991092834">(38)99109-2834</a></p>
+          <p id="email">
+            <a href="mailto:rick1135@hotmail.com">rick1135@hotmail.com</a>
+          </p>
         </div>
       </header>
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Skills</h2></button>
+        <div class="content">
+          <div class="skills">
+            <section class="tools">
+              <h3>Linguagens:</h3>
+              <ul>
+                <li><img src="./assets/img/languages/c2.svg" alt="Linguagem C"  /></li>
+                <li><img src="./assets/img/languages/html.svg" alt="" /></li>
+                <li><img src="./assets/img/languages/css.svg" alt="" /></li>
+                <li><img src="./assets/img/languages/js.svg" alt="" /></li>
+                <li><img src="./assets/img/languages/java.svg" alt="" /></li>
+                <li><img src="./assets/img/languages/sql.svg" alt="" /></li>
+              </ul>
+            </section>
+            <section class="personal">
+              <h3>Habilidades pessoais:</h3>
+              <ul>
+                <li>Comunicação</li>
+                <li>Trabalho em equipe</li>
+                <li>Resolução de problemas</li>
+                <li>Organização</li>
+                <li>Flexibilidade</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Idiomas</h2></button>
+        <div class="content">
+          <ul class="languages">
+            <li>Português - Nativo</li>
+            <li>Inglês - Intermediário</li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Projects</h2></button>
+        <div class="content">
+          <ul class="projects">
+            <li>
+              <h3 class="title github">Projeto 1</h3>
+              <a href="https://www.google.com/" target="_blank"
+                >www.google.com/</a
+              >
+            </li>
+            <li>
+              <h3 class="title github">Projeto 2</h3>
+              <a href="https://www.google.com/" target="_blank"
+                >www.google.com/</a
+              >
+            </li>
+            <li>
+              <h3 class="title github">Projeto 3</h3>
+              <a href="https://www.google.com/" target="_blank"
+                >www.google.com/</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Experiência</h2></button>
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h3 class="title">Estágio - Computec Informática</h3>
+              <span class="period">Janeiro 2019 - Março 2019</span>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
+                accusamus veniam sunt similique adipisci dolore minima facilis?
+                Excepturi unde inventore saepe beatae voluptatem, quas tenetur
+                libero officiis laborum assumenda magni!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
+    <script src="assets/js/acordeon.js"></script>
   </body>
 </html>
