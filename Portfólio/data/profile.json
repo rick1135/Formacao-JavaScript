@@ -1,6 +1,6 @@
 {
   "name": "Alberto Henrique",
-  "photo": "https://avatars.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/profile.png",
+  "photo": "https://avatars.githubusercontent.com/u/55491414?v=4",
   "job": "Dev Júnior",
   "location": "Montes Claros - MG",
   "phone": "(38) 99109-2834",
@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "C",
-        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/c2.svg"
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/refs/heads/main/Portfólio/assets/img/languages/c.svg"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/html.svg"
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/refs/heads/main/Portfólio/assets/img/languages/html.svg"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/css.svg"
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/refs/heads/main/Portfólio/assets/img/languages/css.svg"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/js.svg"
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/refs/heads/main/Portfólio/assets/img/languages/js.svg"
       },
       {
         "name": "Java",
-        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/java.svg"
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/refs/heads/main/Portfólio/assets/img/languages/java.svg"
       },
       {
         "name": "MySQL",
-        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/sql.svg"
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/refs/heads/main/Portfólio/assets/img/languages/sql.svg"
       }
     ],
     "softSkills": [
