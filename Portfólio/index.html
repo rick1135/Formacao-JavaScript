@@ -28,14 +28,25 @@
   <body>
     <div class="main">
       <header class="header">
-        <img src="assets/img/profile.png" alt="profile photo" class="photo" id="profile.photo" />
-        <h1 class="title">Olá, <br />eu sou <span id="profile.name">Loading...</span></h1>
+        <img
+          src="assets/img/profile-default.svg"
+          alt="profile photo"
+          class="photo"
+          id="profile.photo"
+        />
+        <h1 class="title">
+          Olá, <br />eu sou <span id="profile.name">Loading...</span>
+        </h1>
         <div class="info">
-          <p id="job" id="profile.job">Loading...</p>
-          <p id="loc" id="profile.location">Loading...</p>
-          <p id="wpp"><a href="tel:+5538991092834" id="profile.phone">Loading...</a></p>
-          <p id="email">
-            <a href="mailto:rick1135@hotmail.com" id="profile.email">Loading...</a>
+          <p class="job" id="profile.job">Loading...</p>
+          <p class="loc" id="profile.location">Loading...</p>
+          <p class="wpp">
+            <a href="tel:+5538991092834" id="profile.phone">Loading...</a>
+          </p>
+          <p class="email">
+            <a href="mailto:rick1135@hotmail.com" id="profile.email"
+              >Loading...</a
+            >
           </p>
         </div>
       </header>
@@ -45,23 +56,17 @@
           <div class="skills">
             <section class="tools">
               <h3>Linguagens:</h3>
-              <ul>
-                <li><img src="./assets/img/languages/c2.svg" alt="Linguagem C"  /></li>
-                <li><img src="./assets/img/languages/html.svg" alt="" /></li>
-                <li><img src="./assets/img/languages/css.svg" alt="" /></li>
-                <li><img src="./assets/img/languages/js.svg" alt="" /></li>
-                <li><img src="./assets/img/languages/java.svg" alt="" /></li>
-                <li><img src="./assets/img/languages/sql.svg" alt="" /></li>
-              </ul>
+              <ul id="profile.skills.hardSkills"></ul>
             </section>
             <section class="personal">
               <h3>Habilidades pessoais:</h3>
-              <ul>
-                <li>Comunicação</li>
-                <li>Trabalho em equipe</li>
-                <li>Resolução de problemas</li>
-                <li>Organização</li>
-                <li>Flexibilidade</li>
+              <ul id="profile.skills.softSkills">
+                <li>Loading...</li>
+                <li>Loading...</li>
+                <li>Loading...</li>
+                <li>Loading...</li>
+                <li>Loading...</li>
+                <li>Loading...</li>
               </ul>
             </section>
           </div>
@@ -70,51 +75,24 @@
       <section class="acordeon">
         <button class="trigger" type="button"><h2>Idiomas</h2></button>
         <div class="content">
-          <ul class="languages">
-            <li>Português - Nativo</li>
-            <li>Inglês - Intermediário</li>
+          <ul class="languages" id="profile.languages">
+            <li>Loading...</li>
           </ul>
         </div>
       </section>
       <section class="acordeon">
         <button class="trigger" type="button"><h2>Projects</h2></button>
         <div class="content">
-          <ul class="projects">
-            <li>
-              <h3 class="title github">Projeto 1</h3>
-              <a href="https://www.google.com/" target="_blank"
-                >www.google.com/</a
-              >
-            </li>
-            <li>
-              <h3 class="title github">Projeto 2</h3>
-              <a href="https://www.google.com/" target="_blank"
-                >www.google.com/</a
-              >
-            </li>
-            <li>
-              <h3 class="title github">Projeto 3</h3>
-              <a href="https://www.google.com/" target="_blank"
-                >www.google.com/</a
-              >
-            </li>
+          <ul class="projects" id="profile.portfolio">
+            <li>Loading...</li>
           </ul>
         </div>
       </section>
       <section class="acordeon">
         <button class="trigger" type="button"><h2>Experiência</h2></button>
         <div class="content">
-          <ul class="experience">
-            <li>
-              <h3 class="title">Estágio - Computec Informática</h3>
-              <span class="period">Janeiro 2019 - Março 2019</span>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-                accusamus veniam sunt similique adipisci dolore minima facilis?
-                Excepturi unde inventore saepe beatae voluptatem, quas tenetur
-                libero officiis laborum assumenda magni!
-              </p>
-            </li>
+          <ul class="experience" id="profile.professionalExperience">
+            <li>Loading...</li>
           </ul>
         </div>
       </section>

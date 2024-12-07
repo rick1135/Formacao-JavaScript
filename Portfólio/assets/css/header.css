@@ -55,19 +55,19 @@
     margin-right: .5rem;
 }
 
-#job::before{
+.info .job::before{
     background-image: url('../img/icons/job.svg');
 }
 
-#loc::before{
+.info .loc::before{
     background-image: url('../img/icons/loc.svg');
 }
 
-#wpp::before{
+.info .wpp::before{
     background-image: url('../img/icons/whatsapp.svg');
 }
 
-#email::before{
+.info .email::before{
     background-image: url('../img/icons/email.svg');
 }
 
