@@ -1,0 +1,69 @@
+{
+  "name": "Alberto Henrique",
+  "photo": "https://avatars.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/profile.png",
+  "job": "Dev Júnior",
+  "location": "Montes Claros - MG",
+  "phone": "(38) 99109-2834",
+  "email": "rick1135@hotmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "C",
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/c2.svg"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/html.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/css.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/js.svg"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/java.svg"
+      },
+      {
+        "name": "MySQL",
+        "logo": "https://raw.githubusercontent.com/rick1135/Formacao-JavaScript/blob/main/Portfólio/assets/img/languages/sql.svg"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Comunicação",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Resolução de problemas",
+      "Organização"
+    ]
+  },
+  "languages": ["Português BR", "Inglês (intermediário)"],
+  "portfolio": [
+    {
+      "name": "Projeto 1",
+      "url": "https://github.com/rick1135",
+      "github": true
+    },
+    {
+      "name": "Projeto 2",
+      "url": "https://github.com/rick1135",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Bolsista - Projeto de extensão / IFNMG",
+      "period": "abr 2024 - dezembro 2024",
+      "description": "Bolsista no projeto de desenvolvimento da plataforma MOOC para o IFNMG Campus Montes Claros, plataforma na qual atende inicialmente alunos da rede de ensino fundamental da prefeitura."
+    },
+    {
+      "name": "Estágio / Computec Informática",
+      "period": "Janeiro 2019 - Março 2019",
+      "description": "Técnico em manutenção de computadores."
+    }
+  ]
+}
